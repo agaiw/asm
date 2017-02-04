@@ -1,3 +1,8 @@
+# This function cannot successfully
+# return a value for ints greater than 5
+# because return status from a program
+# cannot exceed 255
+
 .section .data
 
 .section .text
@@ -5,7 +10,7 @@
 .globl _start
 
 _start:
-  pushl $6
+  pushl $4
   call factorial
   movl %eax, %ebx
   movl $1, %eax
