@@ -1,6 +1,5 @@
-# This function cannot successfully
-# return a value for ints greater than 5
-# because return status from a program
+# This function cannot successfully return a value for ints greater than 5
+# because status code returned to the operating system from a program
 # cannot exceed 255
 
 .section .data
@@ -12,6 +11,7 @@
 _start:
   pushl $4
   call factorial
+  addl $4, %esp
   movl %eax, %ebx
   movl $1, %eax
   int $0x80
