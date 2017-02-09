@@ -1,3 +1,6 @@
+# This program computes the result of the following expression:
+# 2^3 + 5^2
+
 .section .data
 
 .section .text

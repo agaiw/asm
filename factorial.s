@@ -1,3 +1,5 @@
+# This program computes factorial for the number 4
+
 # This function cannot successfully return a value for ints greater than 5
 # because status code returned to the operating system from a program
 # cannot exceed 255

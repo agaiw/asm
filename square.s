@@ -1,3 +1,6 @@
+# This program computes result of the following expression:
+# 10^2
+
 .section .data
 
 .section .text

@@ -1,4 +1,5 @@
 # This program finds max number from the list of numbers.
+# This time a dedicated function is used.
 
 .section .data
 data_items:
